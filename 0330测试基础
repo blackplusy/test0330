@@ -205,7 +205,47 @@ f.薪资架构
 		bpu http://www.polo-cloud.com
 		bpu
 		bpu http://www.polo-cloud.com/user.php
-		
+6.ecshop项目部署
+	a.准备
+		phpstudy
+		ecshop
+	b.phpstudy简介
+		b1.文件夹结构
+			apache  	存放web服务器所需文件
+				bin 	存放apache命令的位置
+				conf    存放配置文件的为日治
+					httpd.conf apache主配置文件
+				logs    存放日志的位置
+
+			mysql        存放数据库所需文件
+				bin      存放mysql命令的位置
+				data     数据存放位置
+				my.ini   数据库的主配置文件
+			WWW          网站代码存放位置
+		b2.检查服务和端口
+			mysql的主服务  mysqld
+			apache的祝福   httpd
+			win+r--cmd--tasklist | find "mysqld"
+			tasklist  查看当前系统所有进程、
+			|         管道，前面的输出作为后面的输入
+			find      搜索
+			mysql的端口    3306
+			apache的端口   80
+			win+r--cmd--netstat -an | find "3306"
+			0.0.0.0  任意IP
+			127.0.0.1==localhost  电脑本机
+	c.部署ecshop项目
+		c1.解压ecshop压缩包到www文件夹中
+		c2.浏览器中输入127.0.0.1/ecshop1按照提示安装
+			数据库账号
+			数据库主机  localhost
+			端口号      3306
+			用户名      root
+			密码        root
+			数据库名     test
+
+
+
 
 
 
