@@ -45,5 +45,75 @@ f.薪资架构
 	绩效薪资+年终奖+项目奖
 	年终奖 2-4月工资
 	项目奖 上不封顶
+==============================================================
+1.常见的软件架构
+	qq         c/s  
+	微信       c/s   b/s
+	支付宝      c/s   b/s
+	王者荣耀    c/s
+	钉钉        c/s
+	淘宝        c/s   b/s
+	网易云      c/s   b/s
+	美图秀秀    c/s   b/s
+	高德       c/s   b/s
+	快手       c/s   b/s
+	快播       c/s   b/s
+	真三国无双
+	a.单机软件
+		不需要网络就可以执行的应用程序
+		defcon
+		hackercon
+	b.b/s架构软件
+		b:浏览器
+			IE        360   QQ   搜狗  UC  傲游 
+			chrome    开发
+			firefox   测试 
+			safar     苹果
+		s:服务器
+			性能特别牛逼的电脑
+		测试关注不同浏览器，不同版本的兼容性问题
+	c.c/s架构软件
+		c:客户端
+			pc端      笔记本  台式  服务器
+			移动端     手机   平板  智能终端
+		s:服务器
+			性能特别牛逼的电脑
+		测试关注的是不同操作系统，不同位数的软件的安装和反安装(软件捆绑)
+
+2.b/s架构的后端
+	a.前端
+		html  静态页面  标记性语言
+		css   样式表    美化
+		js    动态页面(1.动画 2.交互)
+		UI    美工    
+	b.后端
+		操作系统
+			unix   mac os  ios  aix
+			linux  
+				redhat   centos
+				suse     opensuse
+				ubuntu   kali
+				红旗      麒麟
+				red star  COS
+			windows
+				server 03  08  12  16
+				win7  winxp  win10  
+		web服务器
+			apache    不支持java
+			nginx     轻量级web服务器(反向代理、负载均衡)
+			tomcat    支持java
+			iis       微软
+		数据库服务器
+			oracle   中大型
+			mysql    互联网
+			sqlserver 传统类型公司
+	c.常见搭配
+		操作系统     web服务器    数据库
+		win          iis         sqlserver
+		             apache      mysql
+		             tomcat      mysql\oracle
+		linux        apache      mysql           （LAMP）
+					 nginx       mysql            (LNMP)
+					 tomcat      mysql\oracle
 
 
