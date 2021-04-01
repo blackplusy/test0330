@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="test.php" method="post">
+		<div>
+			<!-- 单行文本框 /明文框-->
+			<input type="text">
+			<br>
+			<!-- 密码输入框 -->
+			<input type="password">
+			<br>
+			<!-- 单选框 相同name为一个组-->
+			性别:
+			男:<input type="radio" name="sex" value="male">
+			女:<input type="radio" name="sex" value="female">
+			泰国:<input type="radio" name="sex" value="sawadika">
+			<br>
+			<!-- 复选框 -->
+			我的爱好:
+			唱   <input type="checkbox" name="hobby" value="sing">
+			跳	 <input type="checkbox" name="hobby" value="jump">
+			妹子 <input type="checkbox" name="hobby"  value="girl">
+			<!-- 下拉框 -->
+			籍贯
+			<select>
+				<option>福建</option>
+				<option selected="select">黑龙江</option>
+				<option>广东</option>
+			</select>
+			请上传您的照片
+			<input type="file" name="file">
+		</div>
+		<div>
+			<input type="button" name="button" value="按钮">
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		</div>
+		<textarea cols="20" rows="20">
+			
+		</textarea>
+	</form>
+</body>
+</html>
